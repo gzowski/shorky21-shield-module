@@ -1,0 +1,4 @@
+if SHIELD_SHORKY21
+config ZMB_SHORKY21
+	default "Shorky21"
+endif

@@ -1,0 +1,10 @@
+file_format: "1"
+id: shorky21
+name: Shorky21
+type: shield
+url: https://github.com/gzowski/shorky21
+requires: [nice_nano]
+features:
+  - keys
+  - encoder
+  - backlight
