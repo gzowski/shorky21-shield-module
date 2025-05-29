@@ -1,12 +1,16 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
     chosen {
         zmk,physical-layout = &default_layer;
     };
-};
 
-{
     default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
         columns = <5>; // Length of the "col-gpios" array
@@ -19,16 +23,13 @@
             RC(4,0) RC(4,1) RC(4,2)
         >;
     };
-};
 
-{
     default_layout: default_layout { // First physical layout, use different naming for other layouts
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
         kscan = <&kscan0>; // Label of the kscan node, optional if all layouts use the same
-        transform = <&default_transform>; // Label of the matrix transform for this layout
+        transform = <&default_transform>;
     };
-}
 
 left_encoder: encoder_left {
         compatible = "alps,ec11";
@@ -59,7 +60,6 @@ sensors: sensors {
     status = "okay";
 };
 
-{
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
