@@ -6,13 +6,6 @@
 # `artifact-name` to assign a name to distinguish build outputs from each other:
 #
  board: [ "nice_nano_v2" ]
- shield: [ "shorky21" ]
+ shield: [ "Shorky21" ]
  include:
-#   - board: bdn9_rev2
-#   - board: nice_nano_v2
-#     shield: reviung41
-#   - board: nice_nano_v2
-#     shield: corne_left
-#     snippet: studio-rpc-usb-uart
-#     cmake-args: -DCONFIG_ZMK_STUDIO=y
-#     artifact-name: corne_left_with_studio
+   - board: nice_nano_v2
