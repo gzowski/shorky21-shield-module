@@ -2,9 +2,8 @@ file_format: "1"
 id: shorky21
 name: Shorky21
 type: shield
-board: [nice_nano, nice_nano_v2]
 url: https://github.com/gzowski/shorky21
-requires: [nice_nano]
+requires: [pro_micro]
 features:
   - keys
   - encoder
