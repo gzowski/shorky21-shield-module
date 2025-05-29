@@ -5,7 +5,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer { // Layer 0
+        default_layout { // Layer 0
             bindings = <
                 &kp A    &kp Q    &kp U    &kp Y    &kp Q 
                 &kp H    &kp N    &kp E    &kp I    &kp O
@@ -13,7 +13,7 @@
                 &kp H    &kp N    &kp E    &kp I    &kp O
                 &kp K    &kp M    &kp S 
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inv_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
     };
  };
