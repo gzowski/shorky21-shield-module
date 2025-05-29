@@ -30,7 +30,7 @@
                 &trans            &trans            &trans            &trans             &trans
                          &trans                     &trans                       &trans
             >;
-            sensor-bindings = <&inc_dec_rgb_ug RGB_BRI RGB_BRD &inc_dec_rgb_ug RGB_SAI RGB_SAD>;
+            sensor-bindings = <BINDING &rgb_ug RGB_BRI &rgb_ug RGB_BRD BINDING &rgb_ug RGB_SAI &rgb_ug RGB_SAD>;
         };
     };
  };
