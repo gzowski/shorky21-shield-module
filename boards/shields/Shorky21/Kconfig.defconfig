@@ -1,4 +1,4 @@
 if SHIELD_SHORKY21
-config ZMB_SHORKY21
+config ZMK_KEYBOARD_NAME
 	default "Shorky21"
 endif
