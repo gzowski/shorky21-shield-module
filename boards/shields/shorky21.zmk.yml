@@ -3,8 +3,7 @@ id: shorky21
 name: Shorky21
 type: shield
 url: https://github.com/gzowski/shorky21
-requires: [nice_nano_v2]
+requires: [pro_micro]
 features:
   - keys
   - encoder
-  - backlight
