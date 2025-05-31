@@ -5,6 +5,7 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "Shorky21.dtsi"
 
 / {
   chosen { zmk,physical-layout = &default_layout; };
