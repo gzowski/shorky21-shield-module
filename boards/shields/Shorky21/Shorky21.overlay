@@ -21,13 +21,6 @@
            RC(4, 0) RC(4, 1) RC(4, 2)>;
   };
 
-  default_layout: default_layout {
-    compatible = "zmk,physical-layout";
-    display-name = "Default Layout";
-    kscan = <&kscan0>;
-    transform = <&default_transform>;
-  };
-
   left_encoder: encoder_left {
     compatible = "alps,ec11";
     a-gpios = <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;

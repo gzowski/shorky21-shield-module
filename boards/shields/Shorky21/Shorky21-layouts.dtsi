@@ -43,9 +43,7 @@
 
 / {
     keypad_position_map {
-        // Other properties
-
-        macropad_map: macropad {
+        Shorky21_map: Shorky21 {
             physical-layout = <&default_layout>;
             positions
             = <0  1  2  3  4>
