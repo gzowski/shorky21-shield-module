@@ -9,3 +9,4 @@
  shield: [ "Shorky21" ]
  include:
    - board: nice_nano_v2
+     cmake-args: -DCONFIG_ZMK_STUDIO=y
