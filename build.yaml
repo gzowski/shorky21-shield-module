@@ -9,4 +9,5 @@
  shield: [ "Shorky21" ]
  include:
    - board: nice_nano_v2
+     snippet: studio-rpc-usb-uart
      cmake-args: -DCONFIG_ZMK_STUDIO=y
