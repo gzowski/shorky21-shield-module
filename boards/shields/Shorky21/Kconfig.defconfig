@@ -1,8 +1,4 @@
 if SHIELD_SHORKY21
 config ZMK_KEYBOARD_NAME
 	default "Shorky21"
-config USB_DEVICE_VID
-    default 0x0DFA
-config USB_DEVICE_PID
-    default 0x381C
 endif
