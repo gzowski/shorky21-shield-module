@@ -27,6 +27,7 @@
     b-gpios = <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
     steps = <80>;
     status = "okay";
+    encoder-resolution = <1>;
   };
 
   right_encoder: encoder_right {
@@ -35,6 +36,7 @@
     b-gpios = <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
     steps = <80>;
     status = "okay";
+    encoder-resolution = <1>;
   };
 
   sensors {
